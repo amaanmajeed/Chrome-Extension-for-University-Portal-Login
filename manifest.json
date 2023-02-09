@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Auto Login to University Portal",
+  "name": "Auto Login to UMT Portal",
   "description": "This extension automates login for university portal with username, password and captcha.",
   "version": "1.0",
   "icons": {
@@ -9,7 +9,6 @@
     "48": "icon48.png",
     "128": "icon128.png"
   },
-
 
   "content_scripts": [
     {

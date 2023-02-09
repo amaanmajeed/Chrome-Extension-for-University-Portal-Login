@@ -2,8 +2,9 @@ var captcha = document.querySelector('.captcha').innerText;
 document.getElementById("SecurityCode").value = captcha;
 
 setTimeout(function () {
-    document.getElementById("student_id").value = "f2020266286";
-    document.getElementById("Password").value = "k3@LQaC7";
+    // enter student id and password in the respective fields
+    document.getElementById("student_id").value = "student id";
+    document.getElementById("Password").value = "password";
 }, 500);
 
 setTimeout(function(){
