@@ -1,28 +1,18 @@
 {
   "manifest_version": 2,
   "name": "Auto Login to University Portal",
-  "description": "This extension automates the login process for a university portal by inputting the user's username, password, and captcha, eliminating the need for manual logging in.",
-  "version": "1.0",
+  "description": "This extension automates login for university portal with username, password and captcha.",
+  "version": "1.0",git
 
   "content_scripts": [
     {
       "matches": ["https://online.umt.edu.pk/Account/Login?ReturnUrl=%2F*"],
-      "js": ["content.js"],
-      "run_at": "document_end"
+      "js": ["content.js"]
     }
   ],
 
   "permissions": [
     "activeTab",
-    "https://online.umt.edu.pk/",
-    "storage"
-  ],
-
-  "background": {
-    "scripts": ["background.js"]
-  },
-
-  "browser_action": {
-    "default_popup": "popup.html"
-  }
+    "https://online.umt.edu.pk/"
+  ]
 }

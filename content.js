@@ -9,6 +9,3 @@ setTimeout(function () {
 setTimeout(function(){
   document.getElementById("loginbtn").click();
 }, 1000);
-
-
-
