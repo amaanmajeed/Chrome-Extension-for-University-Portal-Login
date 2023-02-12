@@ -12,7 +12,7 @@
 
   "content_scripts": [
     {
-      "matches": ["https://online.umt.edu.pk/Account/Login?ReturnUrl=%2F*"],
+      "matches": ["https://online.umt.edu.pk/Account/Login?ReturnUrl=%2F*", "https://lms.umt.edu.pk/*"],
       "js": ["content.js"]
     }
   ],
