@@ -3,7 +3,7 @@ if (document.getElementById("SecurityCode")) {
   document.getElementById("SecurityCode").value = captcha;
 }
 
-var std_id = "Change username & password in content.js file";
+var std_id = "Change username & password in content.js";
 var pass_code = "password";
 
 if (document.getElementById("student_id")) {
